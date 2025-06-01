@@ -1,0 +1,6 @@
+{
+  "name": "Java Codespace",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {},
+  "postCreateCommand": "mvn clean install || gradle build || echo 'No build tool found'"
+}
